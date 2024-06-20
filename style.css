@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: black;
+    color: aliceblue;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;   /* To Allign the text to the proper centre*/
+}
+
+.choice{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;  /* For better fit*/
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.choice:hover{
+   
+    cursor: pointer;
+    background-color: blue;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem ;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score,
+#comp-score,
+#draw-score{
+    font-size: 4rem;
+}
+
+
+#msg{
+    background-color: black;
+    color: antiquewhite;
+    font-size: 2rem;
+    display: inline;
+    margin-top: 5rem;
+   padding: 1rem;
+   border-radius: 1rem;
+   
+}
+
+.msg-container{
+    display: flex;
+    justify-content: center;
+}
+
